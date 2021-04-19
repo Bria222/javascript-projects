@@ -11,7 +11,7 @@ This project is a web application that takes a user's birthday and calculates th
 ## Screenshot
 
 ## Live Page 
-https://Bria222.github.io/Akan-Names 
+https://bria222.github.io/javascript-projects/
 
 
 ## Installation / Setup instruction
@@ -71,7 +71,7 @@ True value is output. Output example: **You were born on Sunday and Your akan na
 
 ## Contact Information 
 
-If you have any question or contributions, please email me at [muthonim62@gmail.com]
+If you have any question or contributions, please email me at [briantechologies.co.ke@gmail.com]
 
 ## License
 * *MIT License:*
