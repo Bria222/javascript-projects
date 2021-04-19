@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan-Names</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento,Playfair+Display+SC,Sorts+Mill+Goudy &display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed|Gugi|Kalam" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom-bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <body class="container-fluid" style="background-image:url(images/picha.jpeg);">
+        <div id="heading"> 
+          
+          <h1>Akan Names Application</h1>
+          <h2 id="get">Discover meaning of your name</h2>
+        </div>
+        <div class="overlay">
+            <div class="container">
+              <h2>Enter Your Details Here!</h2>
+              <form name="myForm" class="form" onsubmit="validate();">
+                <div class="form-group">
+                  <label for="number">Year of Birth:</label>
+                  <input type="number" class="form-control" id="year" placeholder="Year of Birth Eg: 1998 " name="year">
+                </div>
+                <div class="form-group">
+                  <label for="month">Month of Birth:</label>
+                  <input type="number" class="form-control" id="month" placeholder="Month of Birth" name="month">
+                </div>
+                <div class="form-group">
+                  <label for="date">Date of Birth:</label>
+                  <input type="number" class="form-control" id="date" placeholder="Date of Birth i.e 09 for September" name="date">
+                </div>
+                <div class="form-group">
+                  <label for="month">Gender</label><br>
+                  <div class="form-check-inline">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
+                    </label>
+                  </div>
+                  <div class="form-check-inline">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
+                    </label>
+                  </div>
+                </div>
+                    <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
+                <br>
+              </form>
+              <p id="results"> </p>
+            </div>
+        </div>
+        <div class="card-deck">
+          <div class="card ">
+            <div class="card-body text-center">
+              <p class="card-text">Akan names are derived from Ghanian culture. Get your Akan name by filling the form above!</p>
+            </div>
+          </div>
+          <div class="card ">
+              <div class="card-body text-center">
+                <p class="card-text">Names are based on gender and the date you were born. <br>
+                  <span class="fa-stack fa-lg">
+                      <i class="fa fa-globe fa-stack-1x" style="color:rgb(25, 138, 236)"></i>
+                    </span><a href="http://www.afropedea.org/akan-names">click to get more info</a>
+                </p>
+              </div>
+            </div>
+            <div class="card ">
+              <div class="card-body text-center">
+                <p class="card-text">Ghana culture children are given their first name  
+                  in correspondence to the day in the week they were born.</p>
+              </div>
+            </div>
+        </div>
+
+        <footer class="page-footer ">
+            <div class="footer-copyright text-center py-3">Copyright © 2021:
+              <a href="https://github.com/Bria222"> Bria222</a>
+            </div>
+          </footer>
+          <!--connecting external javascript-->
+          <script src="javascript/main.js"></script>
+</body>
+</html>
