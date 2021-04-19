@@ -2,7 +2,7 @@
 
 ## Author
 
-[Marynm-Codder](https://github.com/marynm-codder)
+[Bria222](https://github.com/Bria222)
 
 ## Description
 
@@ -11,13 +11,13 @@ This project is a web application that takes a user's birthday and calculates th
 ## Screenshot
 
 ## Live Page 
-https://marynm-codder.github.io/Akan-Names 
+https://Bria222.github.io/Akan-Names 
 
 
 ## Installation / Setup instruction
 * Open Terminal if you are using linux operating system {Ctrl+Alt+T}
 * install git bash if you are using windows operating system navigate to project directory right click and select git bash here then run the git clone command
-* git clone ```https://github.com/marynm-codder/Akan-Names.git```
+* git clone ```https://github.com/Bria222/Akan-Names.git```
 
 * cd Akan-Names
 
@@ -75,4 +75,4 @@ If you have any question or contributions, please email me at [muthonim62@gmail.
 
 ## License
 * *MIT License:*
-* Copyright (c) 2021 **marynm-codder**
+* Copyright (c) 2021 **Bria222**
